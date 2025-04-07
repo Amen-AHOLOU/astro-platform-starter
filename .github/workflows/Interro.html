@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidéo en fond</title>
+    <style>
+        body {
+            font-family: Papyrus;
+            background-color: #ffffff;
+            text-align: center;
+            font-size: x-large;
+            }
+            .typing-container {
+            font-size: 1.5rem;
+            color: white;
+            border-right: 1px solid #333;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 80ch; /* Ajustez pour correspondre à la longueur du texte */
+            animation: typing 4s steps(40, end), blink 0.7s step-end infinite;
+            display: flex;
+        }
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 80ch; /* Ajustez pour correspondre à la longueur du texte */
+            }
+        }
+        @keyframes blink {
+            from, to {
+                border-color: transparent;
+            }
+            50% {
+                border-color: white;
+            }
+            }
+            .christmas-text {
+            font-size: 48px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        /* Animation des lettres */
+        .christmas-text span {
+            display: inline-block;
+            animation: colorChange 2s infinite;
+        }
+
+        /* Couleur cyclique des lettres */
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: yellow; }
+            50% { color: green; }
+            75% { color: blue; }
+            100% { color: red; }
+            100% { color: #ff00ff; }
+        }
+        footer
+        {
+        	background-color: #000000;
+        	color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+        <div class="typing-container">
+		<h1>
+		<div class="christmas-text">
+        <span>B</span><span>I</span><span>E</span><span>N</span><span>V</span><span>E</span><span>N</span><span>U</span><span>E</span>&nbsp;&nbsp;&nbsp;<span>S</span><span>U</span><span>R</span>&nbsp;&nbsp;&nbsp;<span>M</span><span>A</span>&nbsp;&nbsp;&nbsp;<span>P</span><span>A</span><span>G</span><span>E</span>&nbsp;&nbsp;&nbsp;<span>W</span><span>E</span><span>B</span>
+    </div></h1>
+		</div>
+		<footer>
+			<h4>Cette page à été réaliser par AHOLOU Amen</h4>
+		</footer>
+    </body>
+</html>
